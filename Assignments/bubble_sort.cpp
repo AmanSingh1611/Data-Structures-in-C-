@@ -9,6 +9,7 @@ void printArray(int input[], int n) {
 }
 
 void bubbleSort(int arr[], int n) {
+	int count=0;
 	for(int j = 0; j < n - 1; j++) {
 		for(int i = 0; i < n - 1 - j; i++) {
 			if(arr[i] > arr[i+1]) {
@@ -33,6 +34,6 @@ int main() {
 	
 	bubbleSort(input, n);
 
-	printArray(input, n);
+	printArray(input,n);
 	
 }
